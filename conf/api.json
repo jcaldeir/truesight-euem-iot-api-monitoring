@@ -1,0 +1,28 @@
+{ 
+
+  "application": "API Workload Simulator",
+  "returnStatus": [200,300,401,500],
+  
+  "endpoints": [ {
+			 "name": "getCustomer",
+			 "description": "It gets the customer info",
+			 "url": "getcustomer", 
+			 "responseDelay": [0,3], 
+			 "randomInterval": true,
+			 "staticInterval": 3, 
+			 "randomStatus": true,
+			 "staticStatus": 300
+			},
+			{
+			 "name": "getDevice",
+			 "description": "It gets the device info",
+			 "url": "getdevice", 
+			 "responseDelay": [2,5], 
+			 "randomInterval": true,
+			 "staticInterval": 5, 
+			 "randomStatus": false,
+			 "staticStatus": 500
+			}
+		
+		] 
+}

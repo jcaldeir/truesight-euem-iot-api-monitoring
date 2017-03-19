@@ -1,0 +1,23 @@
+{
+  
+	"name": "truesight-euem-iot-api-monitoring",
+	"version": "0.0.1",
+	"description": "A JavaScript client/server API to simulate IoT device calls.",
+	"author": "João Caldeira <joao_caldeira@bmc.com>",
+	"private": true,
+    "main": "server.js",
+    "dependencies": {
+        "express": "*",
+		"express-delay": "*",
+        "mongoose": "*",
+        "body-parser": "*",
+		"node-rest-client": "*",
+		"node-random-number": "*",
+		"dateformat": "*"
+    },
+	"scripts": {
+    "host": "cls && node server.js",
+	"client": "cls && node client.js"
+  }
+  
+}
